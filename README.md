@@ -49,7 +49,7 @@ git --version
 ```
 5) To get a copy of your fork: 
 ```sh
-git clone linkToYourForkedRepository
+git clone https://github.com/VinayakGaikwad101/Google-Solutions-Challenge.git
 ```
 6) You will have 2 folders: backend and frontend
 7) go inside the backend folder. Open a terminal in the backend folder. Then run:
