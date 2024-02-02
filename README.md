@@ -47,7 +47,7 @@ Dillinger uses the following dependencies to work properly:
 ```sh
 git --version
 ```
-5) To get a copy of your fork: 
+5) To get a copy of your fork (this is just an example. Your fork link will be different): 
 ```sh
 git clone https://github.com/VinayakGaikwad101/Google-Solutions-Challenge.git
 ```
