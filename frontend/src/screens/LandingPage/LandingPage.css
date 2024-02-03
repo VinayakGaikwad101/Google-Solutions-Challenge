@@ -1,0 +1,14 @@
+html, body {
+    background-color: rgb(10, 17, 11);
+  }
+  
+
+main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../../images/landingPage.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}

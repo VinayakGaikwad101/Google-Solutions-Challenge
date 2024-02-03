@@ -71,3 +71,9 @@ npm run dev
 ```sh
 npm run dev
 ```
+
+
+
+## Resources/Credits section:
+1) Dove image taken from PixaBay
+2) Landing Image: <a href="https://www.freepik.com/free-photo/fog-dark-clouds-mountains_1286248.htm#query=nature&position=6&from_view=search&track=sph&uuid=f7c4e46d-fc76-46c6-b1d3-add7702ad2e8">Image by photoangel</a> on Freepik

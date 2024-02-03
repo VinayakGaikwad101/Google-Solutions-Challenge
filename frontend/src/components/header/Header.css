@@ -1,0 +1,74 @@
+@keyframes gradientWave {
+    0% {
+      background-position: left bottom;
+    }
+    50% {
+      background-position: right bottom;
+    }
+    100% {
+      background-position: left bottom;
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .navbar {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-right: 2rem; 
+    background: linear-gradient(90deg, rgb(46, 113, 46), rgb(119, 187, 119));
+    background-size: 200% 100%;
+    animation: gradientWave 3s ease infinite;
+  }
+  
+  .navbar div:nth-child(2) {
+    margin-right: 2rem; 
+  }
+  
+  
+  .navbar a {
+    transition: color 1s;
+  }
+  
+  .navbar a:hover,
+  .navbar a:active {
+    color: rgb(3, 31, 2);
+  }
+
+  .leaf {
+    position: relative;
+    transition: transform 2s;
+  }
+  
+  .leaf::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 2s;
+  }
+  
+  .leaf:hover::before {
+    opacity: 1;
+  }
+  
+  .leaf:hover {
+    transform: none;
+  }
+  
